@@ -1,0 +1,31 @@
+ String str = "I love Java Lessons!";
+
+        System.out.println(str.charAt(0));
+        System.out.println(str.contains("love"));
+        System.out.println(str.replace('o', 'a'));
+        System.out.println(str.toUpperCase());
+        System.out.println(str.toLowerCase());
+        System.out.println(str.substring(str.indexOf("Lessons")));
+
+        int index1 = str.indexOf('L');
+        System.out.println(index1);
+
+        Scanner panel = new Scanner(System.in);
+        System.out.println("Введите Имя: ");
+        String readVal = panel.nextLine();
+        System.out.println("Ваше имя начинается с буквы");
+        System.out.println(readVal.charAt(0));
+
+        Scanner panel2 = new Scanner(System.in);System.out.println("Введите Имя: ");
+        String name = panel2.nextLine();
+        System.out.println("Hello  " + name);
+
+
+        double db = 59.976;
+        System.out.println(Math.ceil (db));
+        int x = (int)db;
+        System.out.println(x);
+
+        int a = 475;
+        short s = (short) a;
+        System.out.println(s);

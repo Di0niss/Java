@@ -1,0 +1,28 @@
+package de.telran.deniss.lesson5;
+
+public class House {
+        private int width;
+        private int length;
+        private String address;
+
+        int hight;
+        String owner;
+
+
+        public House(int width, int length, int hight, String owner, String address) {
+            this.address = address;
+            this.owner = owner;
+            this.hight = hight;
+            this.length = length;
+            this.width = width;
+        }
+        public  House (int width, int length, int String address){
+            this.address=address;
+            this.width=width;
+            this.length=length;
+        }
+
+
+
+        public int getWidth() {
+            return this.width;

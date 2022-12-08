@@ -1,0 +1,35 @@
+public class homeWork7 {
+
+    public static void main(String[] args) {
+
+    int a= 10;
+     int b= 15;
+    System.out.println("Число больше чем второе ?");
+     System.out.println(a>b);
+    }
+
+
+    public class Test{static int minNumberPrint(int a, int b){
+
+     if (a>=b){return b;}
+    else{return a;}
+    }
+    public static void main(String[] args){
+    System.out.println( minNumberPrint(7,3) );
+     }
+    }
+
+
+    public class metod {
+
+        public static void main(String[] args) {
+
+            String str1 = "привет";
+            String str2 = "цветок";
+
+            String str3 = (str1.substring(0, str1.length() / 2)) +
+                    (str2.substring(str2.length() / 2, str2.length()));
+            System.out.println(str3);
+        }
+    }
+}

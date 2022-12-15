@@ -1,0 +1,53 @@
+package de.telran.deniss.lesson9;
+
+public class homeWork9 {
+    public home  {
+
+        var num = prompt("Номер квартиры: ");
+
+        if(num <= 20);
+
+        {
+            console.log("квартира находится в 1 подъезде");
+        }
+        else if(num > 20 && num <=48);
+        {
+            console.log("квартира находится в 2 подъезде");}
+
+        else if(num > 48 && num <=90);
+        {
+            console.log("квартира находится в 3 подъезде");}
+
+        }
+}
+
+--------------------------------------------------------
+
+var num:integer;
+        begin
+        readln(num);
+        case x of
+        1:writeln("зима");
+        2:writeln('весна");
+        3:writeln("лето");
+        4:writeln("осень") else writeln("ошибка");
+        end;
+        readln
+        end.
+
+
+--------------------------------------------------------
+
+
+        month = (rand(1, 12)) % 12;
+        season = null;
+
+        if (month >= 0 && month <= 2) {
+        season = "Зима";
+        } else if (month >= 3 && month <= 5) {
+        season = "Весна";
+        } else if (month >= 6 && month <= 8) {
+        season = "Лето";
+        } else {
+        season = "Осень";
+        }
